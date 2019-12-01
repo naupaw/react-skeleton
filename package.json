@@ -12,7 +12,10 @@
     "gh-pages": "cd example && yarn build",
     "deploy-gh-pages": "gh-pages -d example/build"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "skeleton"
+  ],
   "author": "",
   "license": "ISC",
   "files": [
