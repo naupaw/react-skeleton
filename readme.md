@@ -29,4 +29,4 @@ const App = () => (
 export default App;
 ```
 
-[**DEMO**](http://pedox.github.com/react-skeleton)
+[**DEMO**](http://pedox.github.com/react-skeleton/)
