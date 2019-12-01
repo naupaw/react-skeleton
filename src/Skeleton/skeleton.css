@@ -1,0 +1,40 @@
+.skeleton {
+  height: 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+.round {
+  border-radius: 100%;
+}
+
+.light {
+  animation: skeleton-anim 1s infinite;
+}
+
+.dark {
+  animation: skeleton-anim-dark 1s infinite;
+}
+
+@keyframes skeleton-anim {
+  0% {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  25% {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+
+@keyframes skeleton-anim-dark {
+  0% {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  25% {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}

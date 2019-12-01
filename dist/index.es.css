@@ -1,0 +1,40 @@
+.skeleton_skeleton__1U4CF {
+  height: 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+.skeleton_round__HxJH7 {
+  border-radius: 100%;
+}
+
+.skeleton_light__3vUFI {
+  animation: skeleton_skeleton-anim__3iXFV 1s infinite;
+}
+
+.skeleton_dark__2weHo {
+  animation: skeleton_skeleton-anim-dark__34nwj 1s infinite;
+}
+
+@keyframes skeleton_skeleton-anim__3iXFV {
+  0% {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  25% {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+
+@keyframes skeleton_skeleton-anim-dark__34nwj {
+  0% {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  25% {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
